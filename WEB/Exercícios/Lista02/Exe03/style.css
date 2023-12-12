@@ -1,0 +1,10 @@
+table, th, td {
+    background-color: aqua;
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    margin:auto;
+    border: 2px solid chocolate;
+    text-align: center;
+}
+
