@@ -1,0 +1,88 @@
+.divGeral {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+p {
+    text-indent: 10px;
+}
+
+.divTitulo {
+    font-size: larger;
+    text-indent: 0px;
+    background-color: gray;
+}
+
+.divCentroDistribuicao {
+    text-indent: 0px;
+    background-color: rgb(222, 221, 221);
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.divCentroDistribuicaoTexto {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-style: italic;
+}
+
+hr {
+    margin-top: -20px;
+    color: black;
+}
+
+.divHistoriaDiferenciais {
+    text-align: left;
+    font-size: larger;
+}
+
+.divFinal {
+    background-color: rgb(121, 119, 234);
+    color:rgb(0, 0, 147);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.divImgTxt {
+    display: flex;
+    align-items: top;
+}
+
+.divImgTxt p {
+    width: 750px;
+}
+
+.divImgTxt img {
+    margin-left: 20px; 
+    text-indent: 0px;
+}
+
+.divImgFamilia {
+    background-color: rgb(222, 221, 221);
+    margin-left: 10px;
+    margin-right: 200px;
+    padding-top: 10px;
+    border: 1px solid;
+    text-align: left;
+}
+
+.divFamiliaTexto {
+    margin-left: 0px;
+    margin-right: 200px;
+    margin-top: 0px;
+    font-style: italic;
+    text-align: center;
+}
+
+.divImgMirror img{
+    filter:invert();
+    width: 70px;
+    margin-right: 20px;
+    font-size: x-small;
+}

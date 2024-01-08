@@ -1,5 +1,4 @@
 table, th, td {
-    background-color: aqua;
     color: chocolate;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 300px;
@@ -8,3 +7,16 @@ table, th, td {
     text-align: center;
 }
 
+/*colorindo uma linha e pulando outra*/
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+/*colorindo uma coluna e pulando outra*/
+/*td:nth-child(even) {
+    background-color: aquamarine;
+}*/
+
+/* para colorir as linhas impares 
+tr:nth-child(odd) {
+}

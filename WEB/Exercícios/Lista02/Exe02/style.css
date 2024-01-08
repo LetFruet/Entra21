@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(111, 204, 111);
+    background-color: yellow;
 }
 
 h1 {
@@ -14,5 +14,9 @@ h1 {
 }
 
 .textoPontosTuristicos {
-    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+ul, li {
+    background-color: blue;
 }

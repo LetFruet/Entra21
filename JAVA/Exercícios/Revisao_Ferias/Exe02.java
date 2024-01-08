@@ -1,0 +1,2 @@
+/*Faça um programa em que o usuário deve adivinhar o número que o computador gerou com a função Random do Java.
+Dê dicas ao usuário dizendo se o número que ele chutou é maior ou menor do que o gerado */

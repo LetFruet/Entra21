@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin: 50px;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+button {
+    width: 400px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

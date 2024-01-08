@@ -1,0 +1,15 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+    background-color: rgb(249, 203, 249);
+}
+
+button {
+    background-color: rgb(249, 203, 249);
+}

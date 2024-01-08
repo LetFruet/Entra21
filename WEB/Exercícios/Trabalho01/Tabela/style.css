@@ -1,0 +1,34 @@
+h1, p {
+    margin-left: 350px;
+    margin-right: 200px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    width: 180px;
+}
+
+th {
+    font-weight: bold;
+}
+
+/*colorindo uma linha e pulando outra*/
+tr:nth-child(even) {
+    background-color: rgb(192, 192, 192);
+}
+
+/*colorindo uma linha e pulando outra*/
+tr:last-child {
+    background-color: red;
+    color: white;
+}

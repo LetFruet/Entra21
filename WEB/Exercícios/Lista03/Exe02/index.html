@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Câmbio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Casa de Câmbio</h2>
+
+    <label for="a"> Valor em dólares </label> <!-- CRIANDO A VARIÁVEL -->
+    <input type="number" id="a"> <!-- CRIANDO OS CAMPOS ONDE OS NÚMEROS SERÃO INSERIDOS-->
+
+    <!-- PULANDO LINHA -->
+    <br> 
+    <br>
+
+    <label for="b"> Valor atual do dólar </label>
+    <input type="number" id="b">
+
+    <br>
+    <br>
+
+    <button onclick="calcularCambio()"> Calcular Câmbio </button>
+
+    <p id="resultado"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+Uma empresa de cosméticos comercializa cinco diferentes tipos de produtos e os armazena em uma estante de 40x40 posições.
+Em cada posição da estante, pode ficar armazenada apenas uma caixa com um desses produtos.
+Para facilitar sua identificação, os produtos foram codificados da forma a seguir:
+1: xampu; 2:condicionador; 3: hidratante; 4: tintura; 5: demaquilante; 0: vazio.
+
+Considerando o desenvolvimento de um sistema para gerenciar a organização dos produtos na estante, estabeleceu-se a declaração das variáveis a seguir:
+int Estante[40][40];
+int Contador[5] = {0, 0, 0, 0, 0};
+
+Com base nessa declaração e considerando a codificação dos produtos exposta. faça o que se pede nos itens a seguir.
+a) Escreva um trecho de código para ler os códigos dos produtos e armazená-los na matriz Estante. Caso o usuário digite um código inválido, solicite que o código seja digitado novamente.
+b) Escreva um trecho de código para contar e imprimir a quantidade de caixas de cada tipo de produto na estante. A contagem deve ser armazenada no vetor Contador.
+
+----------------------------------------------------------------------------------
+
+Faça um programa em que o usuário deve adivinhar o número que o computador gerou com a função Random do Java.
+Dê dicas ao usuário dizendo se o número que ele chutou é maior ou menor do que o gerado
+
+----------------------------------------------------------------------------------
+
+Faça um programa que inverta a entrada de texto do usuário.
+Faça com que o programa pergunte se o usuário quer que inverta a sentença inteira ou somente palavras específicas.
+
+﻿----------------------------------------------------------------------------------
+
+Faça um algoritmo que armazene N números inteiros em um vetor.
+N deve ser informado pelo usuário.
+Após isso, organize os números em outro vetor da seguinte forma: primeiro os números pares e depois os números impares.
+Ao final, exiba os valores do vetor original, uma linha em branco e os valores do vetor organizado.
