@@ -9,5 +9,6 @@ function calcularDiferenca() {
     var resultado = (a * b) - (c * d);
     
     //exibindo o resultado no HTML
+    //utilizando o id criando no html 
     document.getElementById('resultado').innerHTML = 'Diferença: ' + resultado;
 }

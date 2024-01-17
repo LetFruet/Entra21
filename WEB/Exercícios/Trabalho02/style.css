@@ -1,0 +1,51 @@
+body {
+    background-color: #cdf0ff;
+    font-family: Arial;
+    padding: 50px;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header, .divMenu, footer {
+    background-color: #0066aa;
+    border: 5px solid red;
+    color: #ffffff;
+    text-align: center;
+}
+
+.divMenu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.divPrincipal {
+    background-color: white;
+    border: 5px solid #000000;
+    padding: 100px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+}

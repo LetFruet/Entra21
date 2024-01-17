@@ -1,0 +1,28 @@
+.card {
+    width: 300px;
+    background-color: aqua;
+ height: 5vh;
+  }
+
+  .textoImagem {
+    margin-left: 50px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.container {
+    padding: 2px 16px;
+  }
+  button {
+  background-color: darkgreen;
+  margin-left: 50px;
+   width: 100px;
+  /* height: 100px;*/
+   color: white;
+  }
+
+  

@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: Arial;
+}
+
+/* ESTILIZAÇÃO CABEÇALHO */
+header {
+    background-color: #b6e2e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.botao-menu, .botao-entrar {
+    background-color: #b6e2e3;
+    text-align: center;
+    border: 0px;
+    text-decoration: none;
+}
+
+.link-menu, .link-entrar {
+    background-color: #b6e2e3;
+    text-decoration: none;
+    border: none; 
+    color: #034f52;
+    font-weight: bold
+}
+
+.botoes-menu {
+    display: flex;
+    gap: 25px; 
+    background-color: #b6e2e3;
+}
+
+.botao-menu:hover, .link-menu:hover, .botao-entrar:hover, .link-entrar:hover {
+    background-color: #95d3d4;
+}
+
+/*ESTILIZAÇÃO DO SUBMENU */
+nav ul {
+    list-style: none;
+}
+
+.sub-menu ul {
+    display: none;
+}
+
+.sub-menu li:hover ul {
+    display: block;
+}
+
+.menu-acessorios {
+    background-color: #b6e2e3;
+    text-decoration: none;
+    border: none; 
+    color: #034f52;
+    font-weight: bold;
+    font-size: smaller;
+    margin-left: -27px;
+}
+
+/* ESTILIZAÇÃO RODAPÉ */
+footer {
+    background-color: #b6e2e3;
+    display: flex;
+    align-items: center;
+}
+
+.nomes-desenvolvedoras {
+    margin-left: 600px;
+    background-color: #b6e2e3;
+    color: #034f52;
+}
+
+.botao-contato {
+    background-color: #b6e2e3;
+    text-align: center;
+    border: 0px;
+}
+
+.link-contato {
+    background-color: #b6e2e3;
+    text-decoration: none;
+    border: none; 
+    color: #034f52;
+    font-weight: bold
+}
+
+.botoes-contato {
+    display: flex;
+    margin-left: 50px;
+    gap: 15px; 
+    background-color: #b6e2e3;
+}
+
+.botao-contato:hover, .link-contato:hover {
+    background-color: #95d3d4;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    height: 280px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #034f52;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card h1 {
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+.card input {
+    display: flex;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card button {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: #034f52;
+    background-color: #b6e2e3;
+    align-content: center;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 180px;
+    border: 0px;
+}

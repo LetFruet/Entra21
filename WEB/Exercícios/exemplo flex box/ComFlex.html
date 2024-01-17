@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Com Flex</title>
+    <style>
+        .container {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+        }
+
+        .article {
+            margin: 10px;
+            margin-left: 50px;
+            padding: 50px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 15px;
+            text-align: center;
+            flex-shrink: 50;
+
+        }
+
+        @media only screen and (max-width: 1250px) {
+            .container {
+                flex-wrap: wrap;
+            }
+        }
+
+        @media only screen and (max-width: 650px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span class="article">Article 1</span>
+        <span class="article">Article 2</span>
+        <span class="article">Article 3</span>
+        <span class="article">Article 4</span>
+        <span class="article">Article 5</span>
+        <span class="article">Article 6</span>
+    </div>
+
+</body>
+
+</html>
