@@ -1,0 +1,247 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial;
+    margin: 0px;
+}
+
+/* ESTILIZAÇÃO CABEÇALHO */
+header {
+    background-color: #b6e2e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.botao-menu, .botao-entrar, .botao-registro {
+    background-color: #b6e2e3;
+    text-align: center;
+    border: 0px;
+    text-decoration: none;
+}
+
+.link-menu, .link-entrar, .link-registro {
+    background-color: #b6e2e3;
+    text-decoration: none;
+    border: none; 
+    color: #034f52;
+    font-weight: bold
+}
+
+.botoes-menu {
+    display: flex;
+    gap: 25px; 
+    background-color: #b6e2e3;
+}
+
+.link-menu:hover, .link-entrar:hover, .link-registro:hover {
+    background-color: #95d3d4;
+}
+
+/*ESTILIZAÇÃO DO SUBMENU */
+nav ul {
+    list-style: none;
+}
+
+.sub-menu ul {
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li {
+    position: relative;
+}
+
+
+.sub-menu > li:hover > ul {
+    display: block;
+}
+
+.menu-acessorios {
+    background-color: #b6e2e3;
+    text-decoration: none;
+    border: none; 
+    color: #034f52;
+    font-weight: bold;
+    font-size: smaller;
+    margin-left: -27px;
+}
+
+/* ESTILIZAÇÃO RODAPÉ */
+footer {
+    background-color: #b6e2e3;
+    display: flex;
+    align-items: center;
+}
+
+.nomes-desenvolvedoras {
+    margin-left: 600px;
+    background-color: #b6e2e3;
+    color: #034f52;
+}
+
+.botao-contato {
+    background-color: #b6e2e3;
+    text-align: center;
+    border: 0px;
+}
+
+.link-contato {
+    background-color: #b6e2e3;
+    text-decoration: none;
+    border: none; 
+    color: #034f52;
+    font-weight: bold
+}
+
+.botoes-contato {
+    display: flex;
+    margin-left: 50px;
+    gap: 15px; 
+    background-color: #b6e2e3;
+}
+
+.botao-contato:hover, .link-contato:hover {
+    background-color: #95d3d4;
+}
+
+/* ESTILIZAÇÃO CARD */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    border: 2px solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #00a2a5;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.botao-ver-mais{
+    background-color: #00a2a5;
+    border: none; 
+}
+
+.link-roupa {
+    background-color: #00a2a5;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.valor-produto {
+    text-align: center;
+    background-color: #00a2a5;
+    color: white;
+}
+
+.imagem-produto {
+    max-width: 300px;
+    max-height: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.lista-produtos {
+    display: flex;
+    margin-top: 50px;
+}
+
+.link-roupa:hover {
+    color: #b6e2e3;
+}
+
+/*ESTILIZAÇÃO DO SUBMENU */
+nav ul {
+    list-style: none;
+}
+
+.sub-menu ul {
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li {
+    position: relative;
+}
+
+
+.sub-menu > li:hover > ul {
+    display: block;
+}
+
+.menu-acessorios {
+    background-color: #b6e2e3;
+    text-decoration: none;
+    border: none; 
+    color: #034f52;
+    font-weight: bold;
+    font-size: smaller;
+    margin-left: -27px;
+}
+
+/* FLEX-BOX DE 1000 ATÉ 630*/
+@media only screen and (max-width: 1000px) {
+
+    /* será acionado quando a largura for menor do que 1000px */ 
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .botoes-menu {
+        flex-shrink: 5;
+        gap: 0px; 
+    }
+
+    .lista-produtos {
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        margin-top: 15px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .nomes-desenvolvedoras {
+        margin-left: 0px;
+    }
+    
+    .botoes-contato {
+        margin-left: 0px; 
+    }
+}
+
+/* FLEX-BOX - PARA CELULAR */
+@media only screen and (max-width: 629px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .botoes-menu {
+        padding-top: 20px;
+        flex-direction: column;
+        gap: 10px; 
+    }
+
+    .menu-acessorios {
+        margin-left: -35px;
+        margin-top: -15px;
+    }
+}
