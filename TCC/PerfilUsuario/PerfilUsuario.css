@@ -1,0 +1,109 @@
+/*ESTILIZAÇÃO CABEÇALHO*/
+header {
+  background-color: #5C7243;
+  padding: 15px;
+}
+
+header a,
+header img {
+  margin-left: 25px;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+/* ESTILIZAÇÃO DO CARD */
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #CDE1B7;
+  color: #466F17;
+  margin: 35px auto;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containerCard h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.containerCard label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.containerCard input {
+  background-color: #E6E6E6;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 18px;
+}
+
+.botaoSair button {
+  background-color: #466F17;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.botaoSair button:hover {
+  color: #CDE1B7;
+}
+
+#botaoSair {
+  background-color: #5C7243
+}
+
+/*ESTILIZAÇÃO RODAPÉ*/
+#rodape {
+  background-color: #5C7243;
+  padding: 50px;
+}
+
+#frase-impacto {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+/*FLEX PARA O CARD*/
+@media only screen and (max-width: 932px) {
+  .containerCard {
+    margin: 30px auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .containerCard {
+    margin: 130px auto;
+  }
+
+  #rodape {
+    margin-top: 120px;
+  }
+
+  #frase-impacto {
+    font-size: small;
+  }
+
+  .botaoSair button {
+    margin-left: 100px;
+  }
+}

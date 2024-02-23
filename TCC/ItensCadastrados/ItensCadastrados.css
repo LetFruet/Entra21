@@ -1,0 +1,400 @@
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/*ESTILIZAÇÃO DO MENU LATERAL*/
+.MenuLATERAL {
+  background-color: #5C7243;
+  width: 80%;
+  height: 100%;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  padding: 5px 20px;
+}
+
+.MenuLATERAL .row {
+  width: 110%;
+}
+
+.container .row {
+  display: flex;
+  margin-top: 10px;
+}
+
+.row {
+  width: 100%;
+}
+
+.mt-3 {
+  border-bottom: 1px solid #dee2e6;
+  padding: 0 5px 2px 5px;
+}
+
+.dropdown-menu {
+  width: 5%;
+}
+
+.dropdown-item {
+  font-size: large;
+}
+
+.dropdown-menu,
+.dropdown-item:hover {
+  background-color: #5C7243
+}
+
+.mt-3 a:hover,
+.mt-3:hover,
+.dropdown-item a:hover {
+  color: #A3C977;
+}
+
+#botao-itens {
+  color: #FFFFFF;
+  background-color: #A3C977;
+  font-size: smaller;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  margin: 50px 0 0 20px;
+}
+
+#link-itens:hover {
+  color: #5C7243;
+}
+
+
+/*ESTILIZAÇAO DO MENU SUPERIOR*/
+.container a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MenuSUPERIOR {
+  background-color: #5C7243;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+}
+
+.MenuSUPERIOR button {
+  background-color: #5C7243;
+  border: none;
+}
+
+.MenuSUPERIOR button:hover {
+  background-color: #97b871;
+  transition: 1.0s;
+}
+
+.container span {
+  border: none;
+  color: white;
+  background-color: #5C7243;
+}
+
+.MenuSUPERIOR .dropdown-menu {
+  width: 20%;
+  position: absolute;
+  background-color: #5C7243;
+}
+
+.MenuSUPERIOR .navbar {
+  width: 40%;
+  background-color: #5C7243;
+  text-align: center;
+}
+
+#dropdownMenuButton:active {
+  background-color: #A3C977;
+}
+
+#dropdownMenuButton2:active {
+  background-color: #5C7243;
+}
+
+#botao-itens-flex {
+  color: #FFFFFF;
+  background-color: #A3C977;
+  font-size: smaller;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  margin-top: -20px;
+}
+
+#link-itens-flex:hover {
+  color: #5C7243;
+}
+
+/*ESTILIZAÇÃO DO CARD*/
+.containerCard {
+  background-color: #CDE1B7;
+  color: #466F17;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+  margin-top: 60px;
+}
+
+.containerCard input {
+  background-color: #E6E6E6;
+  border: none;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botao-mais-descricao {
+  border: none;
+  background-color: white;
+}
+
+#dropdown-desc {
+  background-color: #A3C977;
+  padding: 10px;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 30%;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 20%;
+}
+
+table td:nth-child(4),
+table th:nth-child(4) {
+  width: 5%;
+}
+
+.itens-cadastrados {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+td input {
+  height: 29px;
+}
+
+#input-produto {
+  margin-left: 10px;
+  width: 400px;
+}
+
+#input-data {
+  width: 100px;
+  margin-left: 5px;
+}
+
+#input-valor {
+  width: 130px;
+}
+
+.bi {
+  font-size: large;
+  color: #000000;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+/*ULTIMOS ITENS DO CARD */
+#div-ultimos-itens {
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* FILTRO DE MESES E CATEGORIA */
+#div-filtro-mes {
+  margin-left: 3px;
+}
+
+#filtro-mes,
+#filtro-categoria {
+  width: 120px;
+  background-color: #CDE1B7;
+  border: none;
+  font-size: medium;
+  color: #000000;
+  margin: 0 0 20px 0;
+  justify-content: center;
+}
+
+/* VALOR TOTAL */
+#input-valor-total {
+  width: 120px;
+}
+
+#label-valor-total {
+  margin-right: 15px;
+  font-size: large;
+}
+
+#card-valor-total {
+  align-items: center;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+/* PAGINAÇÃO */
+#iconesPagination {
+  font-size: 20px;
+  align-items: center;
+}
+
+.green-icon {
+  color: #5C7243;
+}
+
+/*ESTILIZAÇÃO DO RODAPÉ*/
+.footer {
+  bottom: 0;
+}
+
+#rodape {
+  background-color: #5C7243;
+  margin-left: -100px;
+}
+
+#botao-atendimento {
+  color: #FFFFFF;
+  background-color: #A3C977;
+  font-size: smaller;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+}
+
+#link-atendimento:hover {
+  color: #5C7243;
+}
+
+#frase-impacto {
+  color: #FFFFFF;
+  border: none;
+  font-size: large;
+}
+
+#rodape-conteudo img {
+  margin-left: 120px;
+}
+
+
+/*FLEX PARA MOBILE*/
+@media only screen and (max-width: 460px) {
+  .col-9 {
+    width: 100%;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .containerCard {
+    width: 112%;
+    margin-left: 5px;
+  }
+
+  .MenuSUPERIOR {
+    color: white;
+  }
+
+  #td-produto {
+    width: 30%;
+  }
+
+  #td-data {
+    width: 20px;
+  }
+
+  #input-produto {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100px;
+    margin-left: 0;
+  }
+
+  #input-data {
+    font-size: 12px;
+    width: 68px;
+    margin-left: 0;
+  }
+
+  #input-valor {
+    font-size: 12px;
+    width: 90px;
+    margin-left: 0;
+  }
+
+  .bi {
+    font-size: small;
+    color: #000000;
+    margin-right: 3px;
+    margin-left: -3px;
+  }
+
+
+  /*ULTIMOS ITENS DO CARD */
+  #div-ultimos-itens {
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+
+  /* FILTRO DE MESES E CATEGORIA */
+  #div-filtro-mes {
+    margin-left: 3px;
+  }
+
+  #filtro-mes,
+  #filtro-categoria {
+    width: 85px;
+    margin: 0 0 10px 0;
+  }
+
+  /* VALOR TOTAL */
+  #label-valor-total {
+    margin-right: 15px;
+    font-size: large;
+  }
+
+  #card-valor-total {
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+
+  /* PAGINAÇÃO */
+  #iconesPagination {
+    font-size: 20px;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  /* RODAPÉ */
+  #rodape {
+    padding-left: 20px;
+    margin-left: 0px;
+    margin-top: 400px;
+  }
+
+  #rodape-conteudo img {
+    margin-left: 100px;
+  }
+
+  #frase-impacto {
+    font-size: small;
+  }
+}
