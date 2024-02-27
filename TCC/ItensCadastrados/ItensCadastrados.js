@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+
     const nomeUsuario = sessionStorage.getItem('nomeUsuario');
     const elementoNomeUsuario = document.getElementById('link-usuario');
     const elementoNomeUsuario2 = document.getElementById('link-usuario2');
@@ -140,14 +141,14 @@ function adicionarLinha(produto, data, valor, descricao, id) {
                         </td> 
                         <td>
                               <div class="d-flex justify-content-center align-items-center">
-                                 <button class="botao-alterar-item" data-item-id="${id}"><i id="icon-mais-descricao"
-                                     class="bi bi-pencil"></i>
-                                 </button>
+                              <a href="../EditarItem/EditarItem.html?id=${id}"><button class="botao-alterar-item" data-item-id="${id}"><i id="icon-mais-descricao"
+                              class="bi bi-pencil"></i>
+                                 </button></a>
                           </div> 
                           </td>
                          <td>
                               <div class="d-flex justify-content-center align-items-center">
-                                 <button class="botao-deletar-item" data-item-id="${id}"><i id="icon-mais-descricao"
+                              <button class="botao-deletar-item" data-item-id="${id}"><i id="icon-mais-descricao"
                                      class="bi bi-trash3"></i>
                                  </button>
                           </div> 
@@ -155,11 +156,28 @@ function adicionarLinha(produto, data, valor, descricao, id) {
                     `;
 
 
-    const botaoDeletarItem = novaLinha.querySelector('.botao-deletar-item');
-    botaoDeletarItem.addEventListener('click', () => deletarItem(botaoDeletarItem.dataset.itemId));
-
-    return novaLinha;
-}
+                    const botaoDeletarItem = novaLinha.querySelector('.botao-deletar-item');
+                    botaoDeletarItem.addEventListener('click', () => confirmarDeletar(botaoDeletarItem.dataset.itemId));
+                
+                    return novaLinha;
+                }
+                
+                function confirmarDeletar(itemId) {
+                    Swal.fire({
+                        title: 'Remoção de item!',
+                        text: 'Você tem certeza que deseja remover o item?',
+                        icon: 'question',
+                        showCancelButton: true, // Adiciona o botão de cancelar
+                        cancelButtonText: 'Cancelar',
+                        confirmButtonText: 'Confirmar',
+                        confirmButtonColor: '#5C7243',
+                        cancelButtonColor: '#A3C977'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            deletarItem(itemId);
+                        }
+                    });
+                }
 
 function deletarItem(itemId) {
     // Aqui você faz o fetch para deletar o item com a ID específica

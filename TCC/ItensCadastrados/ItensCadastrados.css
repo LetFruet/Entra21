@@ -65,6 +65,13 @@ a {
   color: #5C7243;
 }
 
+#link-usuario2 {
+  text-decoration: underline;
+}
+
+#link-usuario2:hover {
+  color: #A3C977;
+}
 
 /*ESTILIZAÇAO DO MENU SUPERIOR*/
 .container a {
@@ -193,8 +200,10 @@ td input {
 }
 
 #input-data {
-  width: 100px;
-  margin-left: 5px;
+  width: 110px;
+  margin-left: 35px;
+ 
+
 }
 
 #input-valor {
@@ -387,7 +396,7 @@ td input {
   #rodape {
     padding-left: 20px;
     margin-left: 0px;
-    margin-top: 400px;
+    margin-top: 100px;
   }
 
   #rodape-conteudo img {
@@ -397,4 +406,8 @@ td input {
   #frase-impacto {
     font-size: small;
   }
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #97b871;
 }
