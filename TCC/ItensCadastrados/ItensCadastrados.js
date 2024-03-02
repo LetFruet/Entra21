@@ -175,6 +175,8 @@ function adicionarLinha(produto, data, valor, descricao, id) {
                     }).then((result) => {
                         if (result.isConfirmed) {
                             deletarItem(itemId);
+                            mostrarSaldoTotal(sessionStorage.getItem('usuarioId'), filtroMesSelecionado, filtroSetorSelecionado);
+                    
                         }
                     });
                 }
